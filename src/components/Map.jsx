@@ -63,16 +63,18 @@ function Map() {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"
         />
-        {cities.map((city) => (
-          <Marker
-            position={[city.position.lat, city.position.lng]}
-            key={city.id}
-          >
-            <Popup>
-              A pretty CSS3 popup. <br /> Easily customizable.
-            </Popup>
-          </Marker>
-        ))}
+        {cities &&
+          cities.length > 0 &&
+          cities.map((city) => (
+            <Marker
+              position={[city.position.lat, city.position.lng]}
+              key={city.id}
+            >
+              <Popup>
+                A pretty CSS3 popup. <br /> Easily customizable.
+              </Popup>
+            </Marker>
+          ))}
         <ChangeCenter position={[40, 10]} />
         <DetectClick />
       </MapContainer>

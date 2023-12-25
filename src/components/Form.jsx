@@ -78,6 +78,10 @@ function Form() {
     navigate("/app/cities");
   }
 
+  function handleClick(e) {
+    e.preventDefault();
+  }
+
   if (isLoadingGeocoading) return <Spinner />;
   if (!lat && !lng) return <Message message="start by clicking on the page" />;
   if (geoCodingError) return <Message message={geoCodingError} />;

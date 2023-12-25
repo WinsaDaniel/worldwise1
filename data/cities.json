@@ -1,18 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🏁 ",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": 73930385
-    },
-    {
       "cityName": "Madrid",
       "country": "Spain",
       "emoji": "🏳",
@@ -35,6 +23,30 @@
         "lng": 13.376933665713324
       },
       "id": 98443197
+    },
+    {
+      "cityName": "Markaz Bani Suwayf",
+      "country": "Egypt",
+      "emoji": "🇪🇬",
+      "date": "2023-12-25T23:18:12.817Z",
+      "notes": "",
+      "position": {
+        "lat": "28.613459424004414",
+        "lng": "31.464843750000004"
+      },
+      "id": 98443198
+    },
+    {
+      "cityName": "Kharanaq",
+      "country": "Iran (Islamic Republic of)",
+      "emoji": "🇮🇷",
+      "date": "2023-12-25T23:44:22.669Z",
+      "notes": "",
+      "position": {
+        "lat": "32.39851580247402",
+        "lng": "55.37109375000001"
+      },
+      "id": 98443199
     }
   ]
 }
